@@ -16,7 +16,7 @@ const s = new mongoose.Schema({
 
 const testModel = mongoose.model('test', s)
 
-mongoose.connect(process.env.DB, {
+mongoose.connect("mongodb+srv://rasedul20:rasedul20@telegramcluster.xfaz1rx.mongodb.net/sdBot?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
