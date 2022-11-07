@@ -12,9 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
+    "mongoose": "^6.7.1",
     "telegraf": "^4.10.0"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=19"
   }
 }
